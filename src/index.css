@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/* Heureka brand typeface — single variable font covering weights 50-1000,
+   so every existing Tailwind weight utility (font-light, font-medium,
+   font-semibold, font-bold...) resolves to a correctly rendered Aspekta weight. */
+@font-face {
+  font-family: "Aspekta";
+  src: url("./assets/fonts/AspektaVF.woff2") format("woff2-variations"),
+       url("./assets/fonts/AspektaVF.woff2") format("woff2");
+  font-weight: 50 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Aspekta", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Aspekta", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Aspekta", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium biological and steel metallic colors */
+  --color-dark-bg: #030509;
+  --color-slate-panel: #0a0d16;
+  --color-steel-border: rgba(255, 255, 255, 0.04);
+  --color-brand-blue: #2563eb;
+  --color-brand-pink: #f43f5e;
+  --color-brand-coral: #fda4af;
+  --color-brand-teal: #0ea5e9;
+}
+
+/* Base resets & scrollbar overrides to keep site premium */
+html, body {
+  background-color: var(--color-dark-bg);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-sans);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+/* Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Premium micro highlights and blur layers */
+.glass-panel {
+  background: rgba(10, 13, 22, 0.55);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-heavy {
+  background: rgba(6, 8, 15, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Subtle, expensive light drifts in background */
+@keyframes ambientDrift {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.15;
+  }
+  33% {
+    transform: translate(40px, -40px) scale(1.1);
+    opacity: 0.25;
+  }
+  66% {
+    transform: translate(-30px, 30px) scale(0.9);
+    opacity: 0.18;
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.15;
+  }
+}
+
+.ambient-light-blue {
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.2) 0%, rgba(3, 5, 9, 0) 70%);
+  animation: ambientDrift 25s ease-in-out infinite;
+}
+
+.ambient-light-pink {
+  background: radial-gradient(circle, rgba(244, 63, 94, 0.14) 0%, rgba(3, 5, 9, 0) 70%);
+  animation: ambientDrift 32s ease-in-out infinite alternate;
+}
+
+/* Text select glow */
+::selection {
+  background: rgba(244, 63, 94, 0.2);
+  color: #fff;
+}
+

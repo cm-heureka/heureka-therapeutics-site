@@ -1,0 +1,6 @@
+{
+  "name": "Heureka Therapeutics",
+  "description": "Copenhagen-based preclinical-stage biotech developing liver-targeted peptide conjugates for MASLD/MASH. Rooted in the University of Copenhagen metabolic research environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
