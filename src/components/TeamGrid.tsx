@@ -17,14 +17,13 @@ const OPERATIONAL_TEAM: TeamMember[] = [
   {
     name: "Maja Engelstoft, PhD",
     role: "Chief Executive Officer",
-    title: "Corporate Drug Development & Former CBMR Researcher",
+    title: "Corporate Drug Development",
     domain: "GPCR PHARMACOLOGY & DRUG DEVELOPMENT",
     academicAnchor: "PhD, University of Copenhagen",
     publications: [
-      "Engelstoft MS, et al. 'A gut feeling for obesity: 7TM sensors on enteroendocrine cells.' Cell Metabolism, 2013.",
-      "Engelstoft MS, et al. 'Seven transmembrane G protein-coupled receptor repertoire of gastric ghrelin cells.' Molecular Metabolism, 2013."
+      "Sebhat IK, ... Engelstoft M, et al. 'Gut enteroendocrine cell activation using a combination of GPR119 and GPR40 agonists results in synergistic hormone secretion in mice and humans.' Cell Metabolism, 2026."
     ],
-    bio: "Dr. Engelstoft trained as a metabolic physiologist at the University of Copenhagen, where her academic research mapped G protein-coupled receptor signaling across enteroendocrine and gastric ghrelin cells. She then moved into industry, working on AMPK pharmacology at Kallyope and on metabolic drug development at Gubra. At Heureka she leads corporate development, partnerships, and operational strategy.",
+    bio: "Maja Engelstoft is an experienced drug discovery scientist with a strong background in preclinical biology and early-stage target exploration. She brings more than a decade of hands-on experience from biotech environments in Denmark and the US, working across target identification, hit discovery, and early lead development. Her work has spanned cross-functional project management, platform development, and scientific strategy in both startup and established R&D settings.",
     iconSeed: "blue",
     linkedin: "https://www.linkedin.com/in/maja-engelstoft-7808b610",
   },
@@ -47,7 +46,7 @@ const OPERATIONAL_TEAM: TeamMember[] = [
     role: "Co-founder & Chief Operating Officer",
     title: "PhD Fellow, Novo Nordisk Foundation Center for Basic Metabolic Research",
     domain: "MOLECULAR BIOLOGY & IN VIVO PHARMACOLOGY",
-    academicAnchor: "Clemmensen Group, University of Copenhagen",
+    academicAnchor: "Clemmensen Group, Novo Nordisk Foundation Center for Basic Metabolic Research",
     publications: [
       "Petersen J, Merrild C, Lund J, Holm S, Clemmensen C. 'Lead-in calorie restriction enhances the weight-lowering efficacy of incretin hormone-based pharmacotherapies in mice.' Molecular Metabolism, 2024.",
       "Merrild C, et al. 'Sustained weight loss with combined LEAP2 and semaglutide treatment in mice.' 2025."
@@ -78,10 +77,11 @@ const ADVISOR_TEAM: TeamMember[] = [
     role: "Co-founder & Scientific Advisor",
     title: "Professor & Group Leader, CBMR, University of Copenhagen",
     domain: "AMPK REGULATION & BIOENERGETICS",
-    academicAnchor: "Novo Nordisk Foundation Center for Basic Metabolic Research · 25,500+ citations, h-index 79",
+    academicAnchor: "Novo Nordisk Foundation Center for Basic Metabolic Research · 200+ publications · 10+ patents",
     publications: [
-      "Foretz M, Hébrard S, Leclerc J, Sakamoto K, et al. 'Metformin inhibits hepatic gluconeogenesis in mice independently of the LKB1/AMPK pathway.' J Clin Invest, 2010.",
-      "Hawley SA, ... Sakamoto K, et al. 'The ancient drug salicylate directly activates AMP-activated protein kinase.' Science, 2012."
+      "Hardie DG, Sakamoto K. 'AMPK: a key sensor of fuel and energy status in skeletal muscle.' Physiology, 2006.",
+      "Göransson O, ... Sakamoto K. 'Mechanism of action of A-769662, a valuable tool for activation of AMP-activated protein kinase.' Journal of Biological Chemistry, 2007.",
+      "Barron DM, Ratinaud Y, Sakamoto K, Sanders M, Willows R. 'Direct AMPK activator compounds.' US Patent 11,583,507, 2023."
     ],
     bio: "Prof. Sakamoto is a world-renowned authority on AMPK signaling and energy metabolism. Formerly Programme Leader at the MRC Protein Phosphorylation Unit (Dundee) and Head of Metabolic Health at the Nestlé Institute of Health Sciences, he now leads the Sakamoto Group at CBMR and guides Heureka's biological target validation.",
     iconSeed: "cyan",
@@ -95,7 +95,11 @@ const ADVISOR_TEAM: TeamMember[] = [
     academicAnchor: "Clemmensen Group, Novo Nordisk Foundation Center for Basic Metabolic Research · 11,300+ citations, h-index 48",
     publications: [
       "Finan B, Clemmensen C, et al. 'Chemical hybridization of glucagon and thyroid hormone optimizes therapeutic impact for metabolic disease.' Cell, 2016.",
-      "Clemmensen C, et al. 'Animal models of obesity and diabetes mellitus.' Nature Reviews Endocrinology, 2018."
+      "Finan B, ... Clemmensen C, et al. 'A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents.' Nature Medicine, 2015.",
+      "Petersen J, Finan B, Johansen VBI, Müller TD, Clemmensen C. 'The evolving landscape of obesity pharmacotherapy.' Nature Reviews Drug Discovery, 2026.",
+      "Petersen J, ... Clemmensen C. 'GLP-1-directed NMDA receptor antagonism for obesity treatment.' Nature, 2024.",
+      "Quarta C, ... Clemmensen C, et al. 'Molecular integration of incretin and glucocorticoid action reverses immunometabolic dysfunction and obesity.' Cell Metabolism, 2017.",
+      "Quarta C, ... Clemmensen C, et al. 'GLP-1-mediated delivery of tesaglitazar improves obesity and glucose metabolism in male mice.' Nature Metabolism, 2022."
     ],
     bio: "Dr. Clemmensen leads the Clemmensen Group at CBMR, studying the biological regulation of body weight and developing new therapeutic strategies for obesity and its metabolic comorbidities. He also co-founded Ousia Pharma (seed-financed by Omega Funds) and advises Heureka on metabolic pharmacology.",
     iconSeed: "rose",
@@ -108,8 +112,10 @@ const ADVISOR_TEAM: TeamMember[] = [
     domain: "METABOLIC PROTEOMICS & GLUCAGON BIOLOGY",
     academicAnchor: "University of Copenhagen · 10,000+ citations, h-index 57",
     publications: [
-      "Janah L, Kjeldsen S, Galsgaard KD, et al., Wewer Albrechtsen NJ. 'Glucagon receptor signaling and glucagon resistance.' International Journal of Molecular Sciences, 2019.",
-      "Niu L, ... Wewer Albrechtsen NJ, et al. 'Plasma proteome profiling discovers novel proteins associated with non-alcoholic fatty liver disease.' Molecular Systems Biology, 2019."
+      "Wewer Albrechtsen NJ, et al. '100 years of glucagon and 100 more.' Diabetologia, 2023.",
+      "Janah L, Kjeldsen S, Galsgaard KD, ... Wewer Albrechtsen NJ. 'Glucagon receptor signaling and glucagon resistance.' International Journal of Molecular Sciences, 2019.",
+      "Galsgaard KD, Pedersen J, Knop FK, Holst JJ, Wewer Albrechtsen NJ. 'Glucagon receptor signaling and lipid metabolism.' Frontiers in Physiology, 2019.",
+      "Galsgaard KD, ... Wewer Albrechtsen NJ, Holst JJ. 'Female glucagon receptor knockout mice are prone to steatosis but resistant to weight gain when fed a MASH-promoting GAN diet and a high-fat diet.' Physiological Reports, 2025."
     ],
     bio: "Prof. Wewer Albrechtsen is a clinical biochemist whose lab applies proteomics to metabolic and liver disease, with a particular focus on glucagon biology and plasma biomarker discovery in NAFLD/MASLD. His work informs Heureka's translational biomarker strategy.",
     iconSeed: "violet",

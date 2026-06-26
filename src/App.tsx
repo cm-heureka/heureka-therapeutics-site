@@ -304,7 +304,7 @@ export default function App() {
             {/* Deep scientific paragraph with partner orientation */}
             <p className="text-base md:text-lg text-gray-300 font-light leading-relaxed mb-10 max-w-2xl">
               Heureka Therapeutics is developing first-in-class, liver-targeted peptide conjugates designed specifically for obesity-driven MASLD/MASH.
-              Rationally designed conjugates direct high-potency AMPK activation to hepatocytes—minimizing systemic liability while fully restoring metabolic function.
+              Rationally designed conjugates direct high-potency AMPK activation to hepatocytes—minimizing systemic liability while restoring metabolic function.
             </p>
 
             {/* CTAs */}
@@ -364,10 +364,6 @@ export default function App() {
               <blockquote className="border-l-2 border-[#f43f5e] pl-4 text-xs md:text-sm font-sans italic text-[#fda4af] font-light leading-relaxed my-6 bg-[#f43f5e]/5 py-3 pr-2 rounded-r-lg">
                 &ldquo;By linking AMPK-activating payloads with a tissue-targeted guide molecule, the AMPK-drug remains inert in circulation but triggers localized fat clearance in the liver.&rdquo;
               </blockquote>
-
-              <p className="text-sm text-gray-400 font-light leading-relaxed">
-                We believe the future of obesity-driven liver therapeutics lies in targeting the root of the disease — the intrahepatic fat — and clearing it to restore liver homeostasis and regenerative capacity.
-              </p>
             </div>
 
             {/* Right floating telemetry modular card */}
@@ -465,37 +461,6 @@ export default function App() {
 
             {/* Embedded Clickable Molecular Mechanism Schematic Map */}
             <TrojanHorseSchematic />
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
-              
-              <div className="p-5 rounded-xl border border-white/5 bg-[#07090f]/40">
-                <span className="font-mono text-[10px] text-[#fda4af] font-medium block mb-2">
-                  01 // SPECIFIC LYSOSOMAL CLEAVAGE
-                </span>
-                <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  Conjugates feature custom linkages that rely on lysosomal cleavage to release the AMPK activator inside hepatocytes.
-                </p>
-              </div>
-
-              <div className="p-5 rounded-xl border border-white/5 bg-[#07090f]/40">
-                <span className="font-mono text-[10px] text-[#fda4af] font-medium block mb-2">
-                  02 // SYNERGISTIC LIPID RESCUE
-                </span>
-                <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  Once released, the AMPK activator promotes hepatic lipid clearance through fatty acid beta-oxidation, addressing a core driver of fibrosis progression.
-                </p>
-              </div>
-
-              <div className="p-5 rounded-xl border border-white/5 bg-[#07090f]/40">
-                <span className="font-mono text-[10px] text-[#fda4af] font-medium block mb-2">
-                  03 // A BALANCED THERAPEUTIC PROFILE
-                </span>
-                <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  Targeted hepatocyte enrichment is designed to balance metabolic efficacy against systemic tolerability, supporting lower clinical dosing and a profile suited for long-term, chronic use.
-                </p>
-              </div>
-
-            </div>
           </div>
         </section>
 

@@ -273,6 +273,10 @@ export const TrojanHorseSchematic: React.FC = () => {
                 exit={{ opacity: 0, scale: 1.02 }}
                 transition={{ duration: 0.4 }}
               >
+                {/* Vertical recentering: the static content (extracellular label to cytosol label)
+                    spans y=60 to y=220, centered at y=140 — well above the canvas's true center
+                    (y=210) once the lower callout box was removed. Shifting by +70 fixes that. */}
+                <g transform="translate(0, 70)">
                 {/* Horizontal Plasma Membrane bilayer with Phospholipids */}
                 <g>
                   <rect x="10" y="120" width="530" height="20" fill="rgba(255, 255, 255, 0.02)" rx="4" />
@@ -384,23 +388,6 @@ export const TrojanHorseSchematic: React.FC = () => {
                     </text>
                   </g>
                 </motion.g>
-
-                {/* Pathway callout */}
-                <g transform="translate(35, 255)">
-                  <rect x="0" y="0" width="160" height="120" rx="8" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.05)" />
-                  <rect x="0" y="0" width="160" height="24" rx="8" fill="rgba(37,99,235,0.1)" stroke="rgba(37,99,235,0.15)" />
-                  <text x="80" y="15" textAnchor="middle" fill="#93c5fd" className="text-[8px] font-mono font-bold tracking-wider uppercase">
-                    RECEPTOR ACTIONS
-                  </text>
-                  <text x="12" y="48" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Stimulates lipolysis
-                  </text>
-                  <text x="12" y="74" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Reduces lipogenesis
-                  </text>
-                  <text x="12" y="100" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Raises hepatic cAMP
-                  </text>
                 </g>
               </motion.g>
             )}
@@ -416,6 +403,9 @@ export const TrojanHorseSchematic: React.FC = () => {
                 exit={{ opacity: 0, scale: 1.02 }}
                 transition={{ duration: 0.4 }}
               >
+                {/* Vertical recentering: content spans y=60 (top label) to y=287 (bottom label),
+                    centered at y≈173, above the canvas's true center (y=210). Shift by +36 to fix. */}
+                <g transform="translate(0, 36)">
                 {/* CONSISTENT CELL MEMBRANE BILAYER — boundary lines and phospholipid heads
                     are both derived from membraneCenterY(), so they always coincide exactly. */}
                 <g>
@@ -532,6 +522,7 @@ export const TrojanHorseSchematic: React.FC = () => {
                 <text x="275" y="60" textAnchor="middle" fill="#60a5fa" className="text-[9px] font-mono tracking-wider font-semibold">
                   CLATHRIN-COATED MEMBRANE VEHICLE
                 </text>
+                </g>
               </motion.g>
             )}
 
@@ -577,7 +568,7 @@ export const TrojanHorseSchematic: React.FC = () => {
                     );
                   })}
                 </g>
-                <text x="211" y="160" textAnchor="middle" fill="rgba(255,255,255,0.4)" className="text-[7px] font-mono uppercase tracking-wider">
+                <text x="196" y="180" textAnchor="middle" fill="rgba(255,255,255,0.4)" className="text-[7px] font-mono uppercase tracking-wider">
                   Empty GPCR
                 </text>
 
@@ -793,27 +784,6 @@ export const TrojanHorseSchematic: React.FC = () => {
                   </g>
                 </g>
 
-                {/* Left Bottom Column: AMPK-derived hepatic metabolic responses */}
-                <g transform="translate(372, 248)">
-                  <rect x="0" y="0" width="162" height="140" rx="8" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.05)" />
-                  <rect x="0" y="0" width="162" height="24" rx="8" fill="rgba(244,63,94,0.1)" stroke="rgba(244,63,94,0.15)" />
-                  <text x="81" y="15" textAnchor="middle" fill="#fda4af" className="text-[8px] font-mono font-bold tracking-wider uppercase">
-                    AMPK ACTIVATION
-                  </text>
-
-                  <text x="10" y="46" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Inhibits lipogenesis
-                  </text>
-                  <text x="10" y="68" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Promotes fat oxidation
-                  </text>
-                  <text x="10" y="90" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Suppresses gluconeogenesis
-                  </text>
-                  <text x="10" y="112" fill="#cbd5e1" className="text-[7.5px] font-sans font-medium">
-                    • Restores metabolic balance
-                  </text>
-                </g>
               </motion.g>
             )}
           </AnimatePresence>
