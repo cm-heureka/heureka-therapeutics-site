@@ -163,7 +163,7 @@ export default function App() {
                 activeSection === 3 ? "text-[#fda4af]" : "text-gray-400 hover:text-white"
               }`}
             >
-              / Rational Design
+              / Biology
             </button>
             <button
               onClick={() => handleScrollTo("team_and_roots")}
@@ -223,7 +223,7 @@ export default function App() {
             onClick={() => handleScrollTo("biology")}
             className="text-left font-display text-4xl font-semibold tracking-tight text-white hover:text-[#fda4af] transition-colors"
           >
-            AMPK Selective Target
+            Biology
           </button>
           <button 
             onClick={() => handleScrollTo("team_and_roots")}
@@ -303,8 +303,8 @@ export default function App() {
 
             {/* Deep scientific paragraph with partner orientation */}
             <p className="text-base md:text-lg text-gray-300 font-light leading-relaxed mb-10 max-w-2xl">
-              Heureka Therapeutics is developing first-in-class, liver-targeted peptide conjugates designed specifically for obesity-driven MASLD/MASH. 
-              Our molecular architecture directs high-potency AMPK activation to hepatocytes—minimizing systemic liability while fully restoring metabolic function.
+              Heureka Therapeutics is developing first-in-class, liver-targeted peptide conjugates designed specifically for obesity-driven MASLD/MASH.
+              Rationally designed conjugates direct high-potency AMPK activation to hepatocytes—minimizing systemic liability while fully restoring metabolic function.
             </p>
 
             {/* CTAs */}
@@ -366,7 +366,7 @@ export default function App() {
               </blockquote>
 
               <p className="text-sm text-gray-400 font-light leading-relaxed">
-                We believe that the future of obesity-driven liver therapeutics lies in targeting the root of the disease - the intrahepatic fats - and expending those to restore liver homeostasis to regain its regenerative capacity.
+                We believe the future of obesity-driven liver therapeutics lies in targeting the root of the disease — the intrahepatic fat — and clearing it to restore liver homeostasis and regenerative capacity.
               </p>
             </div>
 
@@ -459,7 +459,7 @@ export default function App() {
                 Conjugate Chemistry & Selective GPCR Targeting.
               </h2>
               <p className="text-base text-gray-300 font-light leading-relaxed">
-                Rather than treating the liver by bathing the entire human body in potent AMPK activators, our conjugates bind precisely to hepatocyte surface interfaces, delivering clean synergistic intracellular lipid clearance.
+                Rather than treating the liver by bathing the entire human body in potent AMPK activators, our conjugates direct their small-molecule payload to receptors on the hepatocyte surface, delivering synergistic intracellular lipid clearance.
               </p>
             </div>
 
@@ -473,7 +473,7 @@ export default function App() {
                   01 // SPECIFIC LYSOSOMAL CLEAVAGE
                 </span>
                 <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  Conjugates feature custom linkages that are structurally stable in systemic serum but immediately hydrolyzed by intracellular cathepsins inside liver hepatocytes.
+                  Conjugates feature custom linkages that rely on lysosomal cleavage to release the AMPK activator inside hepatocytes.
                 </p>
               </div>
 
@@ -482,7 +482,7 @@ export default function App() {
                   02 // SYNERGISTIC LIPID RESCUE
                 </span>
                 <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  Active payload promotes dynamic lipid clearance through lipophagy and rapid fatty acid beta-oxidation, addressing core fibrosis progression.
+                  Once released, the AMPK activator promotes hepatic lipid clearance through fatty acid beta-oxidation, addressing a core driver of fibrosis progression.
                 </p>
               </div>
 
@@ -537,7 +537,7 @@ export default function App() {
                     <div>
                       <h4 className="font-display text-xs font-medium text-white">SELF-BALANCING DUAL ACTION</h4>
                       <p className="text-[11px] text-gray-400 mt-1 font-light leading-relaxed">
-                        Inside the hepatocyte, a redox-sensitive linker frees the AMPK activator, which phosphorylates ACC to block lipogenesis in concert with the carrier's own favorable glycaemic profile.
+                        Inside the hepatocyte, the released AMPK activator phosphorylates ACC to reduce lipogenesis, complementing the carrier peptide's own favorable glycaemic profile.
                       </p>
                     </div>
                   </div>
@@ -574,7 +574,7 @@ export default function App() {
               </p>
 
               <p className="text-sm text-gray-400 font-light leading-relaxed">
-                Our lead conjugate fuses a pharmacokinetically optimized peptide carrier, targeting a GPCR highly expressed on hepatocytes, with a potent allosteric AMPK activator. Receptor-mediated endocytosis delivers the molecule specifically into hepatocytes, where a redox-sensitive linker releases the AMPK activator intracellularly. The two components are rationally paired by design, restoring the body's own metabolic balance directly at its source while keeping activity concentrated precisely where it is needed.
+                Our approach turns a G protein-coupled receptor (GPCR) that is highly expressed on hepatocytes into a delivery address for the liver. A peptide ligand for this receptor is conjugated to a potent AMPK activator; once the receptor binds and internalises the conjugate, the activator is concentrated inside hepatocytes rather than throughout the body. By pairing a hepatocyte-directed GPCR ligand with an intracellular metabolic effector, we aim to restore the liver's metabolic balance at the site of disease. Our lead conjugate is currently being refined in a dedicated medicinal-chemistry programme.
               </p>
 
               <div className="pt-4 flex flex-wrap gap-x-6 gap-y-2 text-xs font-mono text-gray-500">
@@ -614,7 +614,7 @@ export default function App() {
                   Heureka Therapeutics is academically founded in rigorous research at the Novo Nordisk Foundation Center for Basic Metabolic Research (CBMR). Our team brings decades of experience within metabolic research and drug development.
                 </p>
                 <p className="text-xs text-gray-400 font-light">
-                  Rather than spinning out commercial assets built on speculative AI modules, Heureka conjugates grew organically from rigorous academic assay validation, quantitative biological chemistry, and peer-reviewed metabolic literature.
+                  Heureka's conjugates grew out of rigorous academic assay validation, quantitative biological chemistry, and peer-reviewed metabolic research.
                 </p>
               </div>
             </div>
@@ -827,7 +827,7 @@ export default function App() {
 
             {/* Middle academic declaration */}
             <p className="text-[10px] text-gray-500 font-light tracking-wide text-center max-w-xl leading-relaxed">
-              Heureka Therapeutics ApS is a University of Copenhagen spin-out from the Novo Nordisk Foundation Center for Basic Metabolic Research. We are a biotechnology company focused on developing innovative liver-targeting therapeutics for metabolic diseases.
+              Heureka Therapeutics ApS is a University of Copenhagen spin-out from the Novo Nordisk Foundation Center for Basic Metabolic Research. We are a biotechnology company developing liver-targeted therapeutics for metabolic disease.
             </p>
 
             {/* Right email linkages */}

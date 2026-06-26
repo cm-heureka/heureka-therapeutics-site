@@ -17,14 +17,14 @@ const OPERATIONAL_TEAM: TeamMember[] = [
   {
     name: "Maja Engelstoft, PhD",
     role: "Chief Executive Officer",
-    title: "Translational Biotech Executive & Former CBMR Researcher",
-    domain: "CORPORATE DEVELOPMENT & TRANSLATIONAL MEDICINE",
-    academicAnchor: "PhD, University of Copenhagen (Copenhagen Bioscience PhD Programme)",
+    title: "Corporate Drug Development & Former CBMR Researcher",
+    domain: "GPCR PHARMACOLOGY & DRUG DEVELOPMENT",
+    academicAnchor: "PhD, University of Copenhagen",
     publications: [
-      "WO2020197926A1, 'GPCR Combination Therapies' (Kallyope) — co-inventor.",
-      "Prior R&D tenure at Kallyope, Inc. (NYC), on gut-brain axis GPCR drug discovery."
+      "Engelstoft MS, et al. 'A gut feeling for obesity: 7TM sensors on enteroendocrine cells.' Cell Metabolism, 2013.",
+      "Engelstoft MS, et al. 'Seven transmembrane G protein-coupled receptor repertoire of gastric ghrelin cells.' Molecular Metabolism, 2013."
     ],
-    bio: "Dr. Engelstoft trained as a metabolic physiologist at the University of Copenhagen before moving into industry drug discovery, most recently as a Drug Discovery Scientist at Kallyope. She directs Heureka's operational alignment, partnerships, and clinical timeline strategy.",
+    bio: "Dr. Engelstoft trained as a metabolic physiologist at the University of Copenhagen, where her academic research mapped G protein-coupled receptor signaling across enteroendocrine and gastric ghrelin cells. She then moved into industry, working on AMPK pharmacology at Kallyope and on metabolic drug development at Gubra. At Heureka she leads corporate development, partnerships, and operational strategy.",
     iconSeed: "blue",
     linkedin: "https://www.linkedin.com/in/maja-engelstoft-7808b610",
   },
