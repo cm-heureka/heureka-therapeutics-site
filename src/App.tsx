@@ -155,7 +155,7 @@ export default function App() {
                 activeSection === 2 ? "text-[#fda4af]" : "text-gray-400 hover:text-white"
               }`}
             >
-              / Carrier Strategy
+              / Strategy
             </button>
             <button 
               onClick={() => handleScrollTo("biology")}
