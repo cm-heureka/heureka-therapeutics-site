@@ -358,7 +358,7 @@ export default function App() {
               </h2>
 
               <p className="text-base text-gray-300 font-light leading-relaxed">
-                AMPK (AMP-activated protein kinase) is a central regulator of cellular energy balance and has long been investigated as an attractive therapeutic target for metabolic diseases such as MASH and type 2 diabetes. In the liver, AMPK activation regulate lipid metabolism and reduce metabolic stress. However, translating this biology into effective therapies has been challenging, in part because systemic AMPK activation may affect multiple tissues and pathways beyond the liver, including the heart where chronic activation induces hypertrophy.
+                AMPK (AMP-activated protein kinase) is a central regulator of cellular energy balance and has long been investigated as an attractive therapeutic target for metabolic diseases such as MASH and type 2 diabetes. In the liver, AMPK activation regulates lipid metabolism and reduces metabolic stress. However, translating this biology into effective therapies has been challenging, in part because systemic AMPK activation may affect multiple tissues and pathways beyond the liver, including the heart where chronic activation induces hypertrophy.
               </p>
 
               <blockquote className="border-l-2 border-[#f43f5e] pl-4 text-xs md:text-sm font-sans italic text-[#fda4af] font-light leading-relaxed my-6 bg-[#f43f5e]/5 py-3 pr-2 rounded-r-lg">
