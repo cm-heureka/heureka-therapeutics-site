@@ -358,7 +358,7 @@ export default function App() {
               </h2>
 
               <p className="text-base text-gray-300 font-light leading-relaxed">
-                For over three decades, activating AMPK (AMP-activated protein kinase) has been hailed as the holy grail of metabolic therapies. It is the body&apos;s ultimate cellular energy sensor, capable of wiping out lipid congestion in hepatocytes. Yet, systemic efforts stalled—plagued by off-target toxicity.
+                AMPK (AMP-activated protein kinase) is a central regulator of cellular energy balance and has long been investigated as an attractive therapeutic target for metabolic diseases such as MASH and type 2 diabetes. In the liver, AMPK activation regulate lipid metabolism and reduce metabolic stress. However, translating this biology into effective therapies has been challenging, in part because systemic AMPK activation may affect multiple tissues and pathways beyond the liver, including the heart where chronic activation induces hypertrophy.
               </p>
 
               <blockquote className="border-l-2 border-[#f43f5e] pl-4 text-xs md:text-sm font-sans italic text-[#fda4af] font-light leading-relaxed my-6 bg-[#f43f5e]/5 py-3 pr-2 rounded-r-lg">
@@ -445,14 +445,14 @@ export default function App() {
             <div className="max-w-3xl space-y-4">
               <div className="flex items-center gap-2">
                 <span className="font-mono text-[10px] tracking-widest text-[#f43f5e] uppercase">
-                  // THE MECHANISTIC ENGINE
+                  // OUR SCIENTIFIC APPROACH
                 </span>
                 <span className="h-[1px] w-8 bg-gray-700" />
                 <span className="font-mono text-[10px] text-gray-500 font-light">CHAPTER 03</span>
               </div>
               
               <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-white">
-                Conjugate Chemistry & Selective GPCR Targeting.
+                Glucagon-directed activation of AMPK in the liver
               </h2>
               <p className="text-base text-gray-300 font-light leading-relaxed">
                 Rather than treating the liver by bathing the entire human body in potent AMPK activators, our conjugates direct their small-molecule payload to receptors on the hepatocyte surface, delivering synergistic intracellular lipid clearance.
